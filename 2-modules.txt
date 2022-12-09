@@ -1,0 +1,16 @@
+Modules
+- Every file is a module by default
+
+How to export
+- Used module.exports = {function/variable} --> only put in object if multiple
+- Use keyword require to import into the file --> always use a relative path starting with period
+- see 2- modules, name, utils
+
+Alternative method of export
+- uses export as you go method
+- module.exports.variable/object/function 
+- see 2-altSyntax
+
+Another Alternative method
+- You can have a file where the function is called at the end
+- import without assignment and it will run

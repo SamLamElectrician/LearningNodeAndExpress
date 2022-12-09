@@ -1,0 +1,9 @@
+Built in Modules
+- OS --> operating system
+- Path
+- FS --> file system
+- HTTP
+- Built in modules called without ./
+*only a couple major modules
+*Docs in https://nodejs.org/docs/latest-v16.x/api/
+
