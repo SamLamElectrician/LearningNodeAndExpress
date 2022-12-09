@@ -1,0 +1,37 @@
+John Smilga Course - Node and Express JS
+- Node Fundamentals
+- Express.JS
+- MongoDb, Mongoose
+- Applications
+- Deployment
+
+Node JS
+- Environment to run JS outside of the browser
+- Created on Chrome's v8 JS engine
+- Big Community
+- Full Stack
+
+Browser vs Node 
+- DOM | No DOM --> Node is server side, pure logic no graphical interface
+- Window | No Window --> Node is server side, pure logic no graphical interface
+- Interactive apps | Server Side apps --> Node is server side, pure logic no graphical interface
+- No Filesystem | File System --> info about operating system, network request
+- Fragmentation | Versions --> No need to update JS, can run in the version it was built in
+- ES6 Modules | CommonJS --> access to modules by default
+
+Install
+- Nodejs.org --> lts version --> install
+- node --version --> type into terminal --> see if you install node correctly
+- node --> runs node in REPL(Read-Eval-Print-Loop)
+- Cli is better for more serious Applications 
+
+Executing code
+- Node Filename or Node relative path --> in terminal or intergrated terminals
+
+
+Global variables
+- __dirname --> path to current directory
+- __filename --> file name
+- require --> function to use modules (CommonJS)
+- module --> info about current module(file)
+- process --> info about env where program is executed
