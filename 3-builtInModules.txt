@@ -1,9 +1,10 @@
 Built in Modules
-- OS --> operating system
-- Path
-- FS --> file system
+- OS --> operating system --> see OSMODULE.js
+- Path --> SEE Path Module.js
+- FS --> file system --> async or synchronous -->see  fileSysAsync.js & fileSysSychronous.js
 - HTTP
-- Built in modules called without ./
+
+*Built in modules called without ./
 *only a couple major modules
 *Docs in https://nodejs.org/docs/latest-v16.x/api/
 
