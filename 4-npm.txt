@@ -16,3 +16,8 @@ package.json --> manifest file(stores imnportant info about project/package)
 Manual approach --> create package.json in root --> create properties
 Automatic --> npm init --> ask questions 
 npm init -y -->(default set up)
+
+dependencies --> packages/libraries installed within node_modules
+*larger dependencies have multiple dependencies with it
+
+lodash --> utility library --> to show dependencies
