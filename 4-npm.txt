@@ -1,0 +1,18 @@
+NPM
+- Reusable code from other dev or yourself
+- share code
+- npmjs.com
+- package/dependencies/module
+- no QA, do your own research, weekly downloads
+
+npm - global command, comes with nodejs
+npm --version --> shows version
+local dependency --> only for said project
+npm i <packageName> --> install
+
+npm install -g <packageName> installs package gloablla
+
+package.json --> manifest file(stores imnportant info about project/package)
+Manual approach --> create package.json in root --> create properties
+Automatic --> npm init --> ask questions 
+npm init -y -->(default set up)
