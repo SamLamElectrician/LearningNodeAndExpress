@@ -10,7 +10,8 @@ npm --version --> shows version
 local dependency --> only for said project
 npm i <packageName> --> install
 
-npm install -g <packageName> installs package gloablla
+npm install -g <packageName> installs package gloablly
+
 
 package.json --> manifest file(stores imnportant info about project/package)
 Manual approach --> create package.json in root --> create properties
@@ -21,3 +22,16 @@ dependencies --> packages/libraries installed within node_modules
 *larger dependencies have multiple dependencies with it
 
 lodash --> utility library --> to show dependencies
+
+*if there is a package.json, run npm i --> runs the depencies inside the package json file
+
+ -npm i nodeman -D --> dev dependency --> only for dev environment
+
+- npm run nameOfCommand --> you can add scripts to run it off a keywords
+-eg: see package.json for start and dev
+
+- npm uninstall packageName --> removes packages
+- Nucleur approach is removing package.json and node modules files --> useful for gatsby
+
+- npm --> downloads package
+- npx --> executes package without install globally

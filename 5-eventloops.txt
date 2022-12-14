@@ -1,0 +1,8 @@
+Upcoming 
+- Event loop, Async Pattern, Events Emitter, Streams
+- Main Concept
+- Pre-built Code
+
+Event loop
+- Allows node.js to perform non blocking Input/Output(I/O) by offloading operations to system kernal whenever possible
+https://nodejs.dev/en/learn/

@@ -1,24 +1,28 @@
 {
-  "name": "learningnodeandexpress",
-  "version": "1.0.0",
-  "description": "",
-  "main": "1-intro.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SamLamElectrician/LearningNodeAndExpress.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SamLamElectrician/LearningNodeAndExpress/issues"
-  },
-  "homepage": "https://github.com/SamLamElectrician/LearningNodeAndExpress#readme",
-  "dependencies": {
-    "bootstrap": "^5.2.3",
-    "lodash": "^4.17.21"
-  }
+	"name": "learningnodeandexpress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "1-intro.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SamLamElectrician/LearningNodeAndExpress.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SamLamElectrician/LearningNodeAndExpress/issues"
+	},
+	"homepage": "https://github.com/SamLamElectrician/LearningNodeAndExpress#readme",
+	"dependencies": {
+		"bootstrap": "^5.2.3",
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
 }
