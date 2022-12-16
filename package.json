@@ -2,10 +2,10 @@
 	"name": "learningnodeandexpress",
 	"version": "1.0.0",
 	"description": "",
-	"main": "1-intro.js",
+	"main": "index.js",
 	"scripts": {
-		"start": "node app.js",
-		"dev": "nodemon app.js"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
 	},
 	"repository": {
 		"type": "git",
@@ -18,10 +18,6 @@
 		"url": "https://github.com/SamLamElectrician/LearningNodeAndExpress/issues"
 	},
 	"homepage": "https://github.com/SamLamElectrician/LearningNodeAndExpress#readme",
-	"dependencies": {
-		"bootstrap": "^5.2.3",
-		"lodash": "^4.17.21"
-	},
 	"devDependencies": {
 		"nodemon": "^2.0.20"
 	}
