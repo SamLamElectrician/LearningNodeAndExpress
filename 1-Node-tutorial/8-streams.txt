@@ -1,0 +1,11 @@
+Streams
+- Used to write sequentially
+- Continous source or big files
+- extend event emitter class -->use event methods
+- More advanced topics
+
+4 types of Streams
+- Writable --> write data sequentially
+- Readable --> read data sequentially
+- Duplex --> read and write data sequentially
+- Transform --> data being transformed when reading or writing
