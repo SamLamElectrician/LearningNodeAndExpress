@@ -1,0 +1,15 @@
+How the Web Works
+- Open Browser --> Url (web address) --> http request to server responsible for serving those resources --> Server send back http response
+- Completed using http protocol --> called http messages
+- Headers --> Optional meta info about request/response
+- Body --> Optional resource from response, or payload
+- Response --> Headers --> optional info about response 
+
+HTTP METHODS
+- GET --> Reads DATA
+- POST --> Inserts DATA
+- PUT --> Update DATA
+- DELETE --> Deletes DATA
+
+Example: GET data from store website, POST data to place an order(DATA), GET single order(path params), PUT specific order(params + sends data), DELETE order
+
