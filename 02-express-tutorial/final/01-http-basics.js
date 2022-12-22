@@ -3,12 +3,16 @@ const http = require('http');
 //setting up server
 //http built in method
 const server = http.createServer((req, res) => {
-	// console.log(req.method)
+	//request object,
 	const url = req.url;
 	// home page
 	if (url === '/') {
+		//provides header info, metadata about response
+		//res.writeHead(statusCode{KV pair})
 		res.writeHead(200, { 'content-type': 'text/html' });
+		//content being passed
 		res.write('<h1>home page</h1>');
+		//always call res.end to end response
 		res.end();
 	}
 	// about page
@@ -26,3 +30,6 @@ const server = http.createServer((req, res) => {
 });
 //listening on a port:5000
 server.listen(5000);
+
+//https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+//status codes
