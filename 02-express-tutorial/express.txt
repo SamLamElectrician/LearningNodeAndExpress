@@ -13,3 +13,10 @@ HTTP METHODS
 
 Example: GET data from store website, POST data to place an order(DATA), GET single order(path params), PUT specific order(params + sends data), DELETE order
 
+Express 
+- Saves time with setting up a server, standard across the industry
+
+Install Express
+- npm install express --save 
+- save flag is due to it not being saved to package json when pushed to github
+- version 4.17 stable, 5 is in alpha state

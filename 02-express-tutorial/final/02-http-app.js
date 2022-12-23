@@ -24,19 +24,19 @@ const server = http.createServer((req, res) => {
 		res.write('<h1>about page</h1>');
 		res.end();
 	}
-	// styles
+	// styles -->reads styles
 	else if (url === '/styles.css') {
 		res.writeHead(200, { 'content-type': 'text/css' });
 		res.write(homeStyles);
 		res.end();
 	}
-	// image/logo
+	// image/logo --> reads svg
 	else if (url === '/logo.svg') {
 		res.writeHead(200, { 'content-type': 'image/svg+xml' });
 		res.write(homeImage);
 		res.end();
 	}
-	// logic
+	// logic --> reads JS
 	else if (url === '/browser-app.js') {
 		res.writeHead(200, { 'content-type': 'text/javascript' });
 		res.write(homeLogic);
