@@ -1,0 +1,11 @@
+API
+- API -JSON
+- Send Data
+- res.json()
+
+
+SSR
+- sever side rendering
+- template engine
+- send template 
+- res.render()
