@@ -1,24 +1,23 @@
-// not built in with node
-//import express
-//convention is to call it express
 const express = require('express');
-//sets up express
+const path = require('path');
+
 const app = express();
 
+// setup static and middleware
+app.use(express.static('./public'));
+//sends server the resources
 app.get('/', (req, res) => {
-	console.log('user hit the resource');
-	res.status(200).send('Home Page');
+	//resolves the path and sends the resources
+	res.sendFile(
+		path.resolve(__dirname + '02-express-tutorial\navbar-appindex.html')
+	);
 });
-
-app.get('/about', (req, res) => {
-	res.status(200).send('About Page');
-});
-
+//e
 app.all('*', (req, res) => {
-	res.status(404).send('<h1>resource not found</h1>');
+	res.status(404).send('resource not found');
 });
 
-//how to listen to port of server
+//listening to server
 app.listen(5000, () => {
-	console.log('server is listening on port 5000...');
+	console.log('server is listening on port 5000....');
 });
