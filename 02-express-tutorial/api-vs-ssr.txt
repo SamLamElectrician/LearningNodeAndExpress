@@ -3,9 +3,8 @@ API
 - Send Data
 - res.json()
 
-
 SSR
 - sever side rendering
 - template engine
-- send template 
+- send template --> send back html, css, js
 - res.render()
