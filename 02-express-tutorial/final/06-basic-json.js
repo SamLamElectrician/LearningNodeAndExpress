@@ -3,6 +3,7 @@ const express = require('express');
 // uses express method
 const app = express();
 
+//getting product data from file
 const { products } = require('./data');
 //http method for default
 app.get('/', (req, res) => {
